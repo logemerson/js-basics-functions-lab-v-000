@@ -16,5 +16,4 @@ function distanceTraveledInFeet(origin, destination) {
   } else{
     return (destination - origin)*264
   }
-  }
 }
