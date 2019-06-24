@@ -23,7 +23,7 @@ function calculatesFarePrice(origin, destination) {
   if (distanceFeet < 400) {
     return 0;
   }
-  if (distanceFeet > 400 && distanceFeet < 2000) {
+  if (distanceFeet >= 400 && distanceFeet < 2000) {
     return distanceFeet*0.02;
   }
 }
