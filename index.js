@@ -17,3 +17,10 @@ function distanceTravelledInFeet(origin, destination) {
     return (destination - origin)*264
   }
 }
+
+function calculatesFarePrice(origin, destination) {
+  if (distanceTravelledInFeet(origin, destination) > 400 
+  && distanceTravelledInFeet(origin, destination) < 2000) {
+    return distanceTravelledInFeet(origin, destination)*.02;
+  }
+}
