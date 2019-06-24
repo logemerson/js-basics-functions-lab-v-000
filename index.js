@@ -1,7 +1,7 @@
-function distanceFromHqInBlocks(origin, destination) {
-  if (origin > destination) {
-    return origin - destination;
+function distanceFromHqInBlocks(street) {
+  if (street > 42) {
+    return origin - 42;
   } else {
-    return destination - origin;
+    return 42 - street;
   }
 }
