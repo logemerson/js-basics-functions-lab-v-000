@@ -10,7 +10,7 @@ function distanceFromHqInFeet(street) {
   return distanceFromHqInBlocks(street) * 264
 }
 
-function distanceTraveledInFeet(origin, destination) {
+function distanceTravelledInFeet(origin, destination) {
   if (origin > destinate){
     return (origin - destination)*264
   } else{
